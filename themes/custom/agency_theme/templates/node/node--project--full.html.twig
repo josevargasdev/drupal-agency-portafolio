@@ -1,0 +1,37 @@
+{%
+  set classes = [
+    'node',
+    'node--type-project',
+    'node--full',
+  ]
+%}
+<article{{ attributes.addClass(classes) }}>
+  <div class="project-header">
+    <h1>{{ node.title.value }}</h1>
+    {% if content.field_client %}
+      <p class="project-client"><strong>Client:</strong> {{ node.field_client.value }}</p>
+    {% endif %}
+  </div>
+
+  <div class="project-body">
+    {% if content.field_description %}
+      <div class="project-description">
+        <h3>About this project</h3>
+        {{ node.field_description.value }}
+      </div>
+    {% endif %}
+
+    {% if content.field_technologies %}
+      <div class="project-tech">
+        <h3>Technologies</h3>
+        <p>{{ node.field_technologies.value }}</p>
+      </div>
+    {% endif %}
+
+    {% if content.field_url %}
+      <div class="project-link">
+        <a href="{{ node.field_url.uri }}" target="_blank" class="btn-primary">View Project</a>
+      </div>
+    {% endif %}
+  </div>
+</article>

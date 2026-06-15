@@ -1,0 +1,14 @@
+name: Agency Theme
+type: theme
+description: Custom subtheme for the agency portfolio
+base theme: olivero
+core_version_requirement: ^10 || ^11
+libraries:
+  - agency_theme/global
+regions:
+  header: Header
+  primary_menu: Primary Menu
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: Sidebar
+  footer: Footer

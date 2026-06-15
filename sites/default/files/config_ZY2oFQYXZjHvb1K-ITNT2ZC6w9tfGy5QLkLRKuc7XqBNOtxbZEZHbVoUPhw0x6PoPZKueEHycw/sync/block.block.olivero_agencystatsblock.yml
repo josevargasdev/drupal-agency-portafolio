@@ -1,0 +1,20 @@
+uuid: b7ea9a2f-d77c-4137-acb8-e8b3174c645c
+langcode: en
+status: true
+dependencies:
+  module:
+    - agency_stats
+  theme:
+    - olivero
+id: olivero_agencystatsblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: agency_stats_block
+settings:
+  id: agency_stats_block
+  label: 'Agency Stats Block'
+  label_display: visible
+  provider: agency_stats
+visibility: {  }

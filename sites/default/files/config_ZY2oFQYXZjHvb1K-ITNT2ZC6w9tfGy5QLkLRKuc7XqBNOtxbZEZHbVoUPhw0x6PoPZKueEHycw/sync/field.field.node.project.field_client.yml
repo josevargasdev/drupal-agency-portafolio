@@ -1,0 +1,19 @@
+uuid: 7986972f-917f-4fe4-8bbd-6b051ecd6605
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_client
+    - node.type.project
+id: node.project.field_client
+field_name: field_client
+entity_type: node
+bundle: project
+label: Client
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
