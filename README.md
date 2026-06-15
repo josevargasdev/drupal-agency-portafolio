@@ -2,7 +2,7 @@
 
 A fully functional agency portfolio site built with Drupal 11 as a learning project. Showcases projects, services, team members, and a contact form.
 
-🌐 **Live Demo:** [josevargasdev.github.io/agency-drupal-portfolio](https://josevargasdev.github.io/drupal-agency-portfolio/)
+🌐 **Live Demo:** [josevargasdev.github.io/drupal-agency-portfolio](https://josevargasdev.github.io/drupal-agency-portfolio/)
 
 ---
 
